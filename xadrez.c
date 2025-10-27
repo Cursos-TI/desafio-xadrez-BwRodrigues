@@ -24,6 +24,16 @@ int main() {
     for (int i = 1; i <= casasTorre; i++) {
         printf("Passo %d: Direita\n", i);
     }
+
+    // ----------------- Bispo -----------------
+    printf("\n🧙‍♂️ Bispo - Movendo %d casas na diagonal (Cima + Direita):\n", casasBispo);
+    int i = 1;
+    while (i <= casasBispo) {
+        printf("Passo %d: Cima + Direita\n", i);
+        i++;
+    }
+
+    
     
 
     
