@@ -33,7 +33,16 @@ int main() {
         i++;
     }
 
-    
+       // ----------------- Rainha -----------------
+    printf("\n👑 Rainha - Movendo %d casas para a esquerda:\n", casasRainha);
+    int j = 1;
+    do {
+        printf("Passo %d: Esquerda\n", j);
+        j++;
+    } while (j <= casasRainha);
+
+    printf("\n✅ Fim da simulação - Nível Novato.\n");
+
     
 
     
