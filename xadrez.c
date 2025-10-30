@@ -32,6 +32,37 @@ int main() {
 
     printf("\n✅ Fim da simulação - Nível Novato.\n");
 
+    //-------------------Cavalo---------------
+
+    printf("\n Cavalo - Movendo 2 casas para baixo e 1para esquerda: \n");
+
+    const int casasBaixo = 2;
+    const int casasEsquerda = 1;
+
+    //Loop externo (for):controla o movimento para baixo
+    for (int linha = 1; linha <= casasBaixo; linha++)
+    {
+        printf("Passos %d: Baixo \n", linha);
+
+        //loop interno (while): Representa a ação repetitiva dentro de cada passo
+
+        int pausa = 0;
+        while (pausa < 1)
+        {
+            pausa++;
+        }
+        
+    }
+
+    // depois de mover para baixo, faz o movimento final para a esqueda
+
+    int coluna = 0;
+    while (coluna < casasEsquerda)
+    {
+       printf ("Passos %d: Esquerda \n", casasBaixo + coluna + 1);
+       coluna++;
+    }
+    printf("\n FIM da simulação - Nivel Aventureiro.\n");
     
 
     
